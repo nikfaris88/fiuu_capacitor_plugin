@@ -1,0 +1,29 @@
+PODS:
+  - Capacitor (5.7.8):
+    - CapacitorCordova
+  - CapacitorCordova (5.7.8)
+  - fiuu-mobile-xdk-cocoapods (3.34.3)
+
+DEPENDENCIES:
+  - "Capacitor (from `../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
+  - fiuu-mobile-xdk-cocoapods (= 3.34.3)
+
+SPEC REPOS:
+  trunk:
+    - fiuu-mobile-xdk-cocoapods
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../node_modules/@capacitor/ios"
+
+SPEC CHECKSUMS:
+  Capacitor: 747aadb4fa786f460d8cd9d0557cb81440a13747
+  CapacitorCordova: 31ab98dca2ddcee051027a1afe7e8c85c82f7297
+  fiuu-mobile-xdk-cocoapods: 0510433ca469089fae39524fd8fb4a650db50ee3
+
+PODFILE CHECKSUM: 749ff754a00e5483b1ef794e2b49001a7c460de7
+
+COCOAPODS: 1.15.2

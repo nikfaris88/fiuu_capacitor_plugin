@@ -1,8 +1,8 @@
 import { registerPlugin } from '@capacitor/core';
-import type { FiuuPaymentPlugin } from './definitions';
+import type { FiuuPaymentPluginPlugin } from './definitions';
 
 export * from './definitions';
 
-const FiuuPayment = registerPlugin<FiuuPaymentPlugin>('FiuuPayment');
+const FiuuPaymentPlugin = registerPlugin<FiuuPaymentPluginPlugin>('FiuuPayment');
 
-export { FiuuPayment };
+export { FiuuPaymentPlugin };

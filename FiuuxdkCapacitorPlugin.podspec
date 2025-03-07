@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.dependency 'fiuu-mobile-xdk-cocoapods', '3.34.3'  # Ensure correct version
 
   # If the SDKs are static, add `vendored_frameworks`
-  s.vendored_frameworks = 'Pods/fiuu-mobile-xdk-cocoapods/*.framework'  # Adjust the path if needed
+  # s.vendored_frameworks = 'ios/Pods/fiuu-mobile-xdk-cocoapods/MOLPayXDK.framework'
 end

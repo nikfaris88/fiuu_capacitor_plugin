@@ -15,6 +15,6 @@ export interface PaymentDetails {
   mp_bill_mobile: string;
 }
 
-export interface FiuuPaymentPlugin {
+export interface FiuuPaymentPluginPlugin {
   startMolpay(details: PaymentDetails): Promise<{ result: any }>;
 }
